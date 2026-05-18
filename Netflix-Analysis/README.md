@@ -44,10 +44,12 @@ Analyzes audience rating categories (TV-MA, TV-14, etc.)
 
 
 ### Top Countries
-(Insert image here)
+![Top Countries]<img width="640" height="480" alt="top 10 countries with most netflix title" src="https://github.com/user-attachments/assets/d23dd3bd-2263-49fb-8c91-f42c10aeb3c5" />
+
 
 ### Ratings Distribution
-(Insert image here)
+![Rating distribution]<img width="640" height="480" alt="distribution of ratings" src="https://github.com/user-attachments/assets/e3ef3345-5097-4d1f-96f1-b808e3866d5c" />
+
 
 ---
 
