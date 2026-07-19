@@ -129,7 +129,8 @@ ORDER BY total_movies DESC;
 SELECT title, duration
 FROM netflix_titles
 WHERE type = 'Movie'
-ORDER BY duration DESC
+  AND duration LIKE '% min'
+ORDER BY CAST(duration AS INTEGER) DESC
 LIMIT 10;
 
 -- =========================================
