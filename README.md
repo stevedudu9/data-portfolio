@@ -1,54 +1,60 @@
-# 📊 Data Science & Analytics Portfolio
+# Data Analytics Portfolio
 
-## 👋 About Me
-This repository contains my personal data science and analytics projects using Python and SQL. The goal of this portfolio is to demonstrate my skills in data analysis, visualization, and basic machine learning.
+A curated collection of Python, SQL, visualization, and introductory machine-learning work. Each featured project contains its own overview, source files, findings, and run instructions.
 
----
+## Featured projects
 
-## 📁 Projects Included
+| Project | Focus | Tools | Highlights |
+| --- | --- | --- | --- |
+| [Netflix content analysis](projects/netflix-content-analysis/) | Exploratory analysis across 8,800+ titles | Python, pandas, Matplotlib, SQL | Content mix, countries, ratings, and release trends |
+| [House price regression](projects/house-price-regression/) | Predictive modeling on the Ames housing dataset | Python, pandas, seaborn, scikit-learn | Linear regression, RMSE, coefficient interpretation |
+| [Apple stock analysis](projects/apple-stock-analysis/) | Time-series exploration of AAPL prices | Python, pandas, Matplotlib, yfinance | Moving averages, daily returns, and volatility |
 
-### 📈 1. Apple Stock Analysis (Python)
-This project analyzes Apple stock price data using Python. It focuses on understanding price trends, movements, and volatility over time using data visualization techniques.
+## SQL practice
 
----
+The [SQL movie exercises](exercises/sql-movies/) preserve three progressive learning exercises—basic filtering, aggregation, and joins—without presenting them as separate portfolio projects.
 
-### 🏠 2. House Price Prediction (Python)
-This project uses machine learning (linear regression) to predict house prices based on features such as living area, number of bedrooms, and bathrooms. The model is evaluated using RMSE and coefficients.
+## Repository structure
 
----
+```text
+.
+├── projects/
+│   ├── apple-stock-analysis/
+│   ├── house-price-regression/
+│   └── netflix-content-analysis/
+├── exercises/
+│   └── sql-movies/
+├── requirements.txt
+└── README.md
+```
 
-### 🎬 3. Pixar Movies SQL Analysis (SQL)
-This project uses SQL to analyze a Pixar movies dataset. It includes filtering, sorting, pattern matching, and extracting insights from structured movie data.
+## Run locally
 
----
+```bash
+git clone https://github.com/stevedudu9/data-portfolio.git
+cd data-portfolio
+python -m venv .venv
+```
 
-## 🧠 Skills Demonstrated
-- Python for data analysis  
-- Data visualization  
-- Linear regression modeling  
-- SQL querying (SELECT, WHERE, ORDER BY, LIKE, DISTINCT, LIMIT)  
-- Data cleaning and interpretation  
+Activate the virtual environment, then install the shared dependencies:
 
----
+```bash
+python -m pip install -r requirements.txt
+```
 
-## 🚀 Purpose of This Portfolio
-This portfolio demonstrates my ability to:
-- Work with real-world datasets  
-- Perform data analysis using Python and SQL  
-- Build predictive models  
-- Extract insights from structured data  
+Open the notebooks with Jupyter, or follow the instructions in each project README. The house-price notebook requires the Kaggle dataset to be downloaded separately; its README explains where to place it.
 
----
+## Skills demonstrated
 
-## 📌 Projects Status
-- Apple Stock Analysis → Completed  
-- House Price Prediction → Completed  
-- Pixar SQL Analysis → Completed  
+- Data cleaning and exploratory analysis
+- Data visualization and interpretation
+- SQL filtering, aggregation, sorting, and joins
+- Regression modeling and evaluation
+- Clear project documentation and reproducible folder organization
 
----
+## Next improvements
 
-## 🎯 Future Improvements
-I plan to expand this portfolio with:
-- More advanced machine learning models  
-- Real-world datasets (Kaggle projects)  
-- Dashboard visualization projects  
+- Add automated checks for Python and SQL files
+- Expand model evaluation with cross-validation and additional baselines
+- Add a dashboard project using Power BI, Tableau, or Streamlit
+- Turn the strongest project into a standalone repository only after it has a complete data pipeline, tests, and a distinct audience
